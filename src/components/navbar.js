@@ -17,7 +17,7 @@ class Navbar extends Component {
       <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
       <Link to={`${process.env.PUBLIC_URL}/about`}>Bio</Link>
           <a href="/projects">Projects</a>
-          <a href="/hire">Hire Me</a>
+          <a href="/hire">LOL</a>
           <a href="/contact">Contact</a>
           <a href="javascript:void(0);" className="icon" onClick={this.myFunction.bind(this)}>
             <i className="fa fa-bars"></i>
