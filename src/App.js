@@ -13,10 +13,10 @@ class App extends Component {
   render() {
     return (
     <div>
-      <Navbar/>
       <BrowserRouter>
         <div>
           <div className="App">
+          <Navbar/>
           <Switch>
             <Route path="/about" component={About} />
             <Route path="/" component={Home} />

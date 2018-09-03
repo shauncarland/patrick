@@ -18,7 +18,7 @@ class Navbar extends Component {
           <a href="/hire">Hire Me</a>
           <a href="/contact">Contact</a>
           <a href="javascript:void(0);" className="icon" onClick={this.myFunction.bind(this)}>
-            <i class="fa fa-bars"></i>
+            <i className="fa fa-bars"></i>
           </a>
       </div>
     )
