@@ -7,9 +7,13 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from './components/home';
 import About from './components/about';
 
+import Navbar from './components/navbar';
+
 class App extends Component {
   render() {
     return (
+    <div>
+      <Navbar/>
       <BrowserRouter>
         <div>
           <div className="App">
@@ -20,6 +24,8 @@ class App extends Component {
           </div>
         </div>
       </BrowserRouter>
+
+      </div>
     );
   }
 }
