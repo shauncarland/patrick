@@ -9,6 +9,7 @@ import About from './components/about';
 
 import Navbar from './components/navbar';
 
+// for routes, home needs to come last
 class App extends Component {
   render() {
     return (
@@ -18,13 +19,12 @@ class App extends Component {
           <div className="App">
           <Navbar/>
           <Switch>
-            <Route path="/about" component={About} />
-            <Route path="/" component={Home} />
+          <Route path={`${process.env.PUBLIC_URL}/about`} component={About} />
+            <Route path={`${process.env.PUBLIC_URL}/`} component={Home} />
           </Switch>
           </div>
         </div>
       </BrowserRouter>
-
       </div>
     );
   }
