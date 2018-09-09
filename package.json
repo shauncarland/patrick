@@ -2,7 +2,7 @@
   "name": "patrick",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shauncarland.github.io/patrick",
+  "homepage": "./",
   "dependencies": {
     "mdbootstrap": "^4.5.9",
     "mdbreact": "^4.7.0",
