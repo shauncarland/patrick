@@ -17,7 +17,6 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <div className="App">
-          <Navbar/>
           <Switch>
           <Route path={`${process.env.PUBLIC_URL}/about`} component={About} />
             <Route path={`${process.env.PUBLIC_URL}/`} component={Home} />
